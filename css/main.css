@@ -5,59 +5,88 @@
 @viewport { width: device-width; scale: 1; }
 
 html {
-  line-height: 1.25;
-  body sizing: border-box;
-  -moz-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  text-size-adjust: 100%;
-  font-family: '', sans-serif;
+  line-height: 1.5;
+  font-family: 'Open Sans', sans-serif;
 }
 
-*, *::before, *::after {
-  box-sizing: inherit;
+.grey {
+  background-color: #BCBCBC;
 }
 
-body {
-  margin: 0;
+.ts {
+  text-shadow: 1px 1px 1px #000;
 }
 
-.pad {
-  padding-left: 1em;
+.lightgrey {
+  background-color: lightgrey;
 }
 
-.pic {
-  min-height: 800px;
-  min-width: 500px;
-  display: block;
-  width: 100%;
+.wrapper {
+  max-width: 31em;
+  margin: 0 auto;
 }
 
-@media only screen and (min-width: 35em) {
-  html {
-    font-size: 110%;
-    line-height: 1.3;
-  }
+.tw {
+  color: white;
+}
 
-  h1 {
-    color: #000;
-    font-weight: 200;
-    font-size: 4em;
-    text-align: justify;
-  }
+nav a {
+  text-decoration: none;
+  color: #000;
+}
 
+.nodec {
+  text-decoration: none;
+}
+ol {
+  list-style-type: none;
+  padding-left: 0;
+}
+header li:hover{
+  background-color: lightgrey;
+}
 
-  h2 {
-    font-weight: normal;
-    font-size: 2.5em;
-    text-align: center;
-  }
+header a:hover{
+  color: white;
+}
+
+.btn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #235B5A, #234547);
+  background-image: -moz-linear-gradient(top, #235B5A, #234547);
+  background-image: -ms-linear-gradient(top, #235B5A, #234547);
+  background-image: -o-linear-gradient(top, #235B5A, #234547);
+  background-image: linear-gradient(to bottom, #235B5A, #234547);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #2e7978, #235B5A);
+  background-image: -moz-linear-gradient(top, #2e7978, #235B5A);
+  background-image: -ms-linear-gradient(top, #2e7978, #235B5A);
+  background-image: -o-linear-gradient(top, #2e7978, #235B5A);
+  background-image: linear-gradient(to bottom, #2e7978, #235B5A);
+  text-decoration: none;
+}
+@media only screen and (min-width: 15em) {
 
 }
+
+@media only screen and (min-width: 25em) {
+
+}
+
+
+@media only screen and (min-width: 38em) {
+}
+
+
 @media only screen and (min-width: 60em) {
-  html {
-    font-size: 120%;
-    line-height: 1.5;
-  }
-
 }
