@@ -3,39 +3,55 @@
 <head>
   <title>Anthony Aubrey</title>
   <meta charset="utf-8">
+  <meta name="handheldfriendly" content="true">
+  <meta name="mobileoptimized" content="240">
+  <link href="css/modules.css" rel="stylesheet">
+  <link href="css/grid.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
+  <link href="css/typography.css" rel="stylesheet">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link href='https://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
-  <link href="images/favicon.ico" rel="shortcut icon">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
 </head>
 <body>
 
-<header>
+<ul class="skip-links">
+  <li><a href="#nav">Skip to Navigation</a></li>
+  <li><a href="#main">Skip to the main content</a></li>
+</ul>
 
+<header role="banner" class="grey" id="top">
+  <div class="grid grid-middle">
+    <div class="unit unit-xs-1 unit-s-1 unit-m-1-3 unit-l-1-3">
+      <h1 class="push-0 gutter mega">Anthony Aubrey</h1>
+    </div>
+    <div class=" text-center unit unit-xs-1 unit-s-1 unit-m-2-3 unit-l-2-3">
+      <nav role="navigation" id="nav">
+        <ol class="push-0 list-group list-group--inline">
+          <li class="island"><a href="index.html">Home</li></a>
+          <li class="island"><a href="work.html">Work</li></a>
+          <li class="island"><a href="contact.html">Contact</li></a>
+        </ol>
+      </nav>
+    </div>
+  </div>
 </header>
 
-<main>
-<div class="pad">
-  <div>
-    <h1>Anthony Aubrey</h1>
-    <p>Lover of the arts.</p>
-    <p>anthonyaubrey245@gmail.com</p>
+<main role="main" id="main" class="text-center">
+  <div class="island-double wrapper">
+    <h1>Explore, Create, Inspire.</h1>
+    <p>Biography.</p>
   </div>
-  </div>
-  <img class="pic" src="img/band.jpg">
+
+
 </main>
 
-<footer class="wrapper">
-  <div class="new">
-    <h2>Explore, Create, Inspire.</h2>
-      <div class="center">
-    <a class="social" href="https://www.behance.net/anthonyaubrey">
-      <img class="imgbe" src="img/be.png" alt="Link to Behance.">
-    </a>
-    <a class="social" href="https://instagram.com/tonyaubrey/">
-      <img class="imgbe" src="img/in.png" alt="Link to Instagram.">
-    </a>
-
+<footer class="grey pad-t pad-b">
+  <div class="grid grid-middle">
+    <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
+      <p class="island push-0">©2016 Anthony Aubrey. All Rights Reserved Privacy Policy • Terms of Use • <a class="nodec"href="#top">Top</a></p>
+    </div>
+    <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
+      <p class="island push-0">Anthony Aubrey</p>
     </div>
   </div>
 </footer>
