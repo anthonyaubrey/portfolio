@@ -17,6 +17,10 @@ html {
   text-shadow: 1px 1px 1px #000;
 }
 
+.text-right {
+  text-align: right;
+}
+
 .lightgrey {
   background-color: lightgrey;
 }
