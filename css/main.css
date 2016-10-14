@@ -58,6 +58,11 @@ header a:hover{
   color: white;
 }
 
+.imgbe {
+  width: 18%;
+  align: center;
+}
+
 .btn {
   background: #3498db;
   background-image: -webkit-linear-gradient(top, #235B5A, #234547);
