@@ -6,7 +6,7 @@
 
 html {
   line-height: 1.5;
-  font-family: "orator-std"; 
+  font-family: "orator-std";
 }
 
 .grey {
@@ -83,6 +83,9 @@ header a:hover{
   background-image: linear-gradient(to bottom, #2e7978, #235B5A);
   text-decoration: none;
 
+}
+.open-sans {
+  font-family: 'Open Sans', sans-serif;
 }
 
 }
