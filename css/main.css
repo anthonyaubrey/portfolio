@@ -82,6 +82,9 @@ header a:hover{
   background-image: -o-linear-gradient(top, #2e7978, #235B5A);
   background-image: linear-gradient(to bottom, #2e7978, #235B5A);
   text-decoration: none;
+
+}
+
 }
 @media only screen and (min-width: 15em) {
 
