@@ -59,9 +59,16 @@ header a:hover{
 }
 
 .imgbe {
-  width: 3%;
+  width: 48px;
 }
 
+li {
+  list-style-type: none;
+}
+.nostyle {
+  list-style-type: none;
+  display: inline;
+}
 .btn {
   background: #3498db;
   background-image: -webkit-linear-gradient(top, #235B5A, #234547);
