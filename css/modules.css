@@ -1,4 +1,4 @@
-/*!
+/* !
  * Modulifier || Code released under the UNLICENSE
  * Code under other copyrights & licenses listed below.
  * http://modulifier.web-dev.tools/#responsive;images;list-group;embed;media-object;accessibility;print
@@ -26,8 +26,18 @@ body {
   margin: 0;
 }
 
-article, aside, details, figcaption, figure,
-footer, header, main, menu, nav, section, summary {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section,
+summary {
   display: block;
 }
 
@@ -185,8 +195,11 @@ a:hover, a:active {
   outline: none;
 }
 
-a:focus, [tabindex="0"]:focus,
-input:focus, textarea:focus, button:focus {
+a:focus,
+[tabindex="0"]:focus,
+input:focus,
+textarea:focus,
+button:focus {
   outline: 3px solid #000;
   outline-offset: 3px;
 }
@@ -230,7 +243,7 @@ input:focus, textarea:focus, button:focus {
     visibility: visible;
   }
 
-  /*!
+  /* !
    * (c) HTML5 Boilerplate || MIT License
    *     https://html5boilerplate.com/
    */
