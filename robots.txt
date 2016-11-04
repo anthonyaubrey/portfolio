@@ -1,0 +1,3 @@
+Sitemap: https://anthonyaubrey.ca/sitemap.xml
+
+User-agent: *

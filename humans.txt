@@ -1,0 +1,18 @@
+# TEAM
+
+Designer & Developer: Anthony Aubrey <anthonyaubrey245@gmail.com>
+Site: https://anthonyaubrey.ca/
+Location: Ottawa, Canada
+
+---
+
+# TECHNOLOGY
+
+## Software
+
+- Atom
+- Github
+
+## Hosting
+
+-Hover <https://www.hover.com>
