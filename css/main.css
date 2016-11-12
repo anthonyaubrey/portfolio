@@ -32,6 +32,12 @@ html {
 .wrapper {
   max-width: 31em;
   margin: 0 auto;
+
+}
+
+.pagewrap {
+  max-width: 50em;
+  margin: 0 auto;
 }
 
 .tw {
