@@ -73,11 +73,6 @@ li {
   display: inline;
 }
 
-.full-width {
-  margin-left: calc(-100vw / 2 + 500px / 2);
-  margin-right: calc(-100vw / 2 + 500px / 2);
-}
-
 .btn {
   background: #3498db;
   background-image: -webkit-linear-gradient(top, #235b5a, #234547);
