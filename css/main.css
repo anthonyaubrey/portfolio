@@ -122,13 +122,21 @@ li {
 }
 
 @media only screen and (min-width: 25em) {
-
+  img {
+    width:100%;
+  }
 }
 
 
 @media only screen and (min-width: 38em) {
+  img {
+    width:50%;
+  }
 }
 
 
 @media only screen and (min-width: 60em) {
+  img {
+    width:33%;
+  }
 }
