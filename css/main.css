@@ -56,6 +56,11 @@ html {
   margin: 0 auto;
 }
 
+.xlimgwrap {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
 .tw {
   color: white;
 }
