@@ -4,5 +4,5 @@
 
 {% include_relative modules.css %}
 {% include_relative grid.css %}
-{% include_relative type.css %}
+{% include_relative typography.css %}
 {% include_relative main.css %}
