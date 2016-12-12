@@ -100,6 +100,41 @@ li {
   display: inline;
 }
 
+div#captioned-gallery {
+	width: 100%;
+	overflow: hidden;
+}
+
+figure { margin: 0; }
+figure.slider {
+	position: relative;
+	width: 500%;
+	font-size: 0;
+	animation: 40s slidy infinite;
+}
+
+figure.slider figure {
+	width: 20%;
+	height: auto;
+	display: inline-block;
+	position: inherit;
+}
+
+figure.slider img {
+	width: 100%;
+	height: auto;
+}
+
+figure.slider figure figcaption {
+	position: absolute;
+	bottom: 0;
+	background: rgba(0,0,0,0.3);
+	color: #fff;
+	width: 100%;
+	font-size: 2rem;
+	padding: .6rem;
+}
+
 .btn {
   background: #3498db;
   background-image: -webkit-linear-gradient(top, #235b5a, #234547);
